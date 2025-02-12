@@ -24,7 +24,7 @@ jobs:
             set -e  # Exit on error
             
             # Define working directory
-            APP_DIR="/home/ubuntu"
+            APP_DIR="/home/ubuntu/app"
 
             # Clone repo if not exists, else pull latest changes
             if [ ! -d "$APP_DIR/.git" ]; then
